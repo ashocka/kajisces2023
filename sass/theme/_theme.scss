@@ -1,0 +1,783 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap&subset=latinextended');
+
+/// EA overrides
+
+.ea-cancel {display:none !important;}
+
+.ea-actions-group {
+	justify-content: left !important;
+}
+
+.ea-bootstrap.ea-bootstrap .selected-time, .ea-bootstrap.ea-bootstrap .selected-time:hover, .ui-datepicker .ui-datepicker-current-day {
+	background-color:$blue !important;
+}
+
+.ea-bootstrap .ui-datepicker .no-slots, .ea-bootstrap .ui-datepicker .no-slots:hover {
+	background-color: lighten($grey, 30%) !important;
+}
+
+.ea-bootstrap .col-md-6 {
+	padding:0;
+}
+
+.ea-bootstrap .col-md-6:first-of-type {
+	margin-top:-25px;
+}
+
+.ea-bootstrap .final { // desktop
+	padding-left: $spacer*4;
+}
+
+.ea-form-v2 .form-group {
+	margin-bottom:$spacer !important;
+}
+
+/// so it begins
+
+body {
+	font-family: $font-family-base;
+	border-top: 4px solid $pink;
+	border-bottom: 4px solid $pink;
+	background-color: $pink;
+	overflow-x:hidden;
+	text-rendering: optimizeLegibility;
+
+	&, &>* {
+		color: $grey;
+	}
+
+	a {text-decoration:underline;}
+}
+
+.site {
+	background-color: $white;
+	overflow-x: hidden;
+}
+
+.wrapper {
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-family-base;
+	font-weight: 800;
+}
+
+h1 {
+	font-size: $font-size-base*1.875;
+}
+
+h2 {
+	font-size: $font-size-base*1.652;
+}
+
+h3 {
+	font-size: $font-size-base*1.5;
+}
+
+h4 {
+	font-size: $font-size-base;
+}
+
+ul {
+	padding: 0;
+}
+
+.btn, .wp-block-button__link, .button, .ea-bootstrap .ea-actions-group .btn-primary {
+	background-color: $pink;
+	color: $white !important;
+	padding: 15px 20px;
+	border-radius: 0;
+    display: table;
+    border:none;
+    text-decoration: none;
+    font-size: $font-size-base;
+
+    &:hover {
+    	text-decoration: none;
+    	background-color: darken($pink, 5%);
+    }
+
+    .btn-arrow {
+    	margin: 0 0 0 10px;
+    }
+}
+
+.under-btn {
+    color:$pink;
+}
+
+.content-area a, .entry-content a {
+	color: $pink;
+	border-bottom: 1px solid $pink;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: none;
+		color: lighter($pink 30%);
+		border-bottom: none;
+	}
+}
+
+#cn-refuse-cookie {
+	background: transparent;
+    border: 1px solid white;
+}
+
+#cn-accept-cookie {
+	color: $white;
+	background: $grey;
+}
+
+///////////////////////////////////////////////////////////
+/////////////////// N A V I G A C I J A ///////////////////
+
+.nav-container {
+	display:grid;
+
+	a {
+		text-decoration: none;
+	}
+}
+
+.navbar {
+	background-color: transparent !important;
+	padding: 0;
+	margin-top:$spacer/2;
+}
+
+.nav-container {
+	justify-content: flex-end;
+}
+
+.nav-flex {
+	display: flex;
+	align-items: center;
+}
+
+.custom-logo-link {
+	margin-right: auto;
+	margin-left:20px;
+	margin-bottom:$spacer/2;
+}
+
+.navbar-toggler {
+	padding:0;
+	font-size: $spacer*2;
+	margin-right: 10px;
+
+	.navbar-toggler-icon {
+		background-image: url('../img/menu.svg');
+	}
+}
+
+#main-menu {
+	background-color: $grey;
+
+	ul {
+		margin:0;
+	}
+
+	li {
+		//padding: $spacer $spacer*2;
+		//border-right: 1px solid $white;
+
+		a {
+			color: $white;
+			padding:0;
+		}
+	}
+
+	.dropdown-menu {
+	border-top: 1px solid $white;
+	background-color: $grey;
+	border-radius:0;
+	border:none;
+	margin-left: $spacer;
+	padding:0;
+
+		li {
+			border-right:none;
+
+			a {
+				color: $white !important;
+				background-color: transparent;
+			}
+		}
+
+		.dropdown-menu {
+				position: relative;
+				margin-left: $spacer;
+		}
+	}
+}
+
+.toolbox {
+	margin-right: 10px;
+
+	a {
+		color:$grey;
+		font-size: $spacer*1.2;
+		margin: 0 $spacer/2;
+		vertical-align: middle;
+	}
+
+	.searchwp-modal-form-trigger-el {
+		background-image: url('../img/magnifying-glass.svg');
+		display: inline-block;
+	    width: 1.5em;
+	    height: 1.5em;
+	    vertical-align: middle;
+	    content: "";
+	    background-size: 100% 100%;
+	}
+}
+
+#searchsubmit {
+	padding: 8px 30px;
+}
+
+.desktop-nav {
+	display: block;
+    width: 100%;
+    background-image:none;
+    height: unset;
+}
+
+/////////////////////////////////////////////////////
+/////////////////// H O M E /////////////////////////
+
+.home h1 {
+	text-align:center;
+	margin: $font-size-base*1.875 0;
+
+	span:first-of-type {
+		color: $pink;
+		text-decoration: underline;
+	}
+
+	span:last-of-type {
+		color: $green;
+		text-decoration: underline;
+	}
+}
+
+.home .features {
+	margin: $spacer*2 0 $spacer*2;
+	text-align:center;
+
+	.feature {
+		padding: 0 4%;
+
+		.feat-img {
+			min-height: 140px;
+			align-content: flex-end;
+		    display: flex;
+		    justify-content: center;
+		}
+	}
+}
+
+.home .btn {
+	margin:0 auto;
+}
+
+.home .under-btn {
+	text-align: center;
+    display: block;
+}
+
+.home .info-ponuja {
+	margin: 0 0 $spacer*2 0;
+
+	span {
+		width: 100%;
+		padding: $spacer;
+		display: inline-block;
+		font-size: 14px;
+	}
+
+	.logo-lege {
+		width: 100%;
+		padding: $spacer;
+	}
+}
+
+.home .priporocamo-ena {
+	a {
+		display: block;
+		position: relative;
+		text-decoration: none;
+
+		.btn-arrow {
+			position: absolute;
+		    bottom: 0;
+		    right: 0;
+		}
+	}
+}
+
+.home .divider {
+    width: 140%;
+    margin-left: -20%;
+
+	padding:$spacer*2 0;
+    display: block;
+    z-index: -99;
+    max-width: 1400px;
+}
+
+.home .novice {
+	margin-top:$spacer*2;
+	margin-bottom:$spacer*2;
+
+	a {
+		color: $grey;
+	}
+}
+
+.home .novica {
+	padding-right: $spacer*4;
+	margin-bottom: $spacer*2;
+
+	&last-of-type {
+		margin-bottom: 0;
+	}
+
+	img {
+		float: right;
+	}
+}
+
+.home-wrap{
+	margin-bottom: $spacer*4;
+}
+
+
+/////////////////////////////////////////////////////
+/////////////////// P A G E S ///////////////////////
+
+.header-background {
+	position: relative;
+	width: 100%;
+}
+
+.header-background:before {
+	content: "";
+  	position: absolute;
+  	top: 0; left: 0;
+  	width: 100%; height: 100%;
+	background-image: var(--background);
+	background-blend-mode: saturation;
+	background-size: cover;
+	opacity:0.3;
+	width:100%;
+}
+
+.header-wrapper {
+	position: relative;	
+}
+
+.entry-header {
+	margin-top:$spacer*2;
+	margin-bottom:$spacer*2;
+}
+
+.category-novice .entry-header {
+	margin-top:0;
+	margin-bottom:0;
+}
+
+.breadcrumbs {
+	list-style:none;
+	font-size:16px;
+	font-weight:bold;
+	margin-left:0 !important;
+
+	li {
+		display: inline;
+
+		a {
+			color: $grey;
+		}
+
+	}
+
+	.br-divider {
+		margin: 0 10px;
+	}
+}
+
+.entry-meta-or-excerpt {
+	font-size:18px;
+	text-shadow: 0px 0px 10px white;
+}
+
+.page ul, .post ul {
+	margin-left:$spacer;
+}
+
+.entry-content {
+	& ul {
+		margin-left:$spacer;
+	}
+
+	h2, h3, h4 {
+		margin: $font-size-base*2 0 $font-size-base;
+
+		&:first-of-type {
+			margin-top: 0;
+		}
+	}
+}
+
+.priporocamo-wrap {
+	align-items:stretch;
+	margin-bottom: 1px;
+}
+
+.priporocamo-ena {  /// this is for the link blocks
+	background-color: $green;
+	color: $grey;
+	padding: $spacer*2;
+	height:100%;
+	width:100%;
+	overflow: hidden;
+
+	a {
+		color: $grey;
+		display: flex;
+		height: 100%;
+		width:100%;
+		justify-content: space-between;
+
+		.btn-arrow {
+			align-self: flex-end;
+		}
+	}
+}
+
+.wp-block-pullquote {
+	text-align: left;
+    padding: $spacer*2 $spacer*2;
+    margin: $spacer 0;
+    background:$green !important;
+    clip-path: polygon(6% 8%, 97% 3%, 100% 100%, 0 94%);
+
+    p {
+    	font-size: $spacer !important;
+    }
+
+    &:after {
+    	content: "";
+    	background: $green;
+    	width: 30px;
+    	height: 30px;
+    }
+}
+
+.wp-block-button {
+	margin: $spacer*2 auto;
+    display: block !important;
+
+    .wp-block-button__link {
+    	margin: 0 auto;
+    	display: block;
+    }
+}
+
+#archive-wrapper {
+	.priporocamo-wrap {
+		margin: $spacer 0;
+	}
+
+	.priporocamo-ena a{
+		display: block;
+	}
+}
+
+/////////////////////////////////////////////////////
+/////////////////// S I D E B A R ///////////////////
+
+.sidebar .nagovor-btn {
+	margin: $spacer 0 $spacer/2;
+}
+
+.entry-content, .sidebar {
+	margin-top:$spacer;
+	margin-bottom:$spacer;
+}
+
+
+///////////////////////////////////////////////////
+/////////////////// F O O T E R ///////////////////
+
+#wrapper-footer-full {
+	background-color: $blue;
+	margin-top: $spacer*2;
+	padding-bottom: $spacer*2;
+
+	.footer-menu {
+		margin: $spacer*2 auto;
+	}
+
+	&, a {
+		color: $white;
+	}
+
+	#menu-footer-menu, #menu-footer-menu ul {
+		list-style: none;
+		padding: 0;
+    	margin: 0;
+	}
+
+	#menu-footer-menu {
+		display: grid;
+		  grid-template-columns: 1fr 1fr;
+		  grid-auto-flow: dense;
+		  gap: $spacer*2;
+	}
+
+	#menu-footer-menu > li > a {
+		font-family: $font-family-base;
+		font-weight: 800;
+		font-size: $font-size-base;
+	}
+
+	.footer-widget {
+		margin: $spacer*2 0;
+	}
+
+	.enovice { //form
+		span {
+			display:inline;
+			margin-left: 10px;
+		}
+
+		hr {
+			border-top: 1px solid white;
+			margin-top: 7px;
+		}
+
+		label {display:block;}
+
+		strong {
+			width:100%;
+			margin-top: 10px;
+		}
+
+		ul {
+			margin-left: 0;
+		}
+
+		li {
+			list-style: none;
+
+			label {
+				display:inline;
+				margin-left: 10px;
+			}
+		}
+
+		.btn {
+			margin:unset;
+		}
+	}
+
+}
+
+#wrapper-footer {
+	.gallery {
+		.gallery-item {
+			margin: $spacer*2 0;
+			max-width: 100%;
+
+			img {
+				float: left;
+			}
+		}
+	}
+}
+
+
+
+////////////////////////// RESPONSIVE ////////////////////////
+@include media-breakpoint-down(xs) {
+	.custom-logo-link {
+		width: 35%;
+	}
+
+	.nav-mobile-container {
+		padding:0;
+		max-width: 100%;
+	}
+}
+
+@include media-breakpoint-up(md) {
+
+	.wrapper {
+		padding:30px 0 0 0;
+	}
+
+	h1 {
+		font-size: $font-size-base*2.875;
+	}
+
+	h2 {
+		font-size: $font-size-base*2;
+	}
+
+	h3 {
+		font-size: $font-size-base*1.5;
+	}
+
+	.full-width {padding:initial;}
+
+
+	.entry-content, .sidebar {
+		margin-top:$spacer*2;
+		margin-bottom:$spacer*2;
+	}
+
+	.priporocamo-wrap {
+		margin: $spacer*2 0;
+	}
+
+	.home .divider {
+    	width: 96%;
+    	margin: 0 auto;
+	}
+
+	.home .info-ponuja {
+	margin: $spacer*2 0;
+
+		span {
+			width: 45%;
+			padding: $spacer;
+			display: inline-block;
+			font-size: 14px;
+		}
+
+		.logo-lege {
+			width: 45%;
+			padding: $spacer;
+			vertical-align: top;
+		}
+	}
+
+	#wrapper-footer {
+	.gallery {
+		.gallery-item {
+			max-width: 45%;
+			margin: $spacer*2 $spacer;
+		}
+	}
+	}
+
+	.wp-block-pullquote {
+    	padding: $spacer*4;
+
+   		p {
+    		font-size: $spacer !important;
+    	}
+	}
+}
+
+@include media-breakpoint-up(lg) {
+	.toolbox {
+		margin-left: auto;
+		padding: $spacer*2 0 0 0;
+		margin-right: 0px;
+	}
+
+	.navbar {
+		margin-top: 0;
+	}
+
+	.navbar-toggler {
+		    margin-right: 0px;
+	}
+
+	.custom-logo-link {
+		margin-left: 0px;
+	}
+
+	.nav-flex {
+		flex-direction: column;
+	}
+
+	#main-menu {
+
+		li:last-of-type .dropdown-menu{
+			margin-left: -232px; // so that it doesn't show off-screen
+		}
+
+		.dropdown-menu{
+			margin-left: 0;
+
+			.dropdown-menu{
+				right: 0;
+				position: absolute;
+				margin-left: 0;
+
+				li {
+					padding-left: $spacer*4;
+				}
+			}
+
+			li {
+				border-top: 1px solid $white;
+			}
+		}
+
+		li {
+			padding: $spacer $spacer*2;
+			border-right: 1px solid $white;
+
+			&:last-of-type {
+				border-right: none;
+			}
+		}
+	}
+
+	.desktop-nav {
+		display: block;
+	    width: 100%;
+		justify-content: flex-end;
+	    display: flex;
+	    flex-direction: column;
+
+	    background-image: url('../img/nav-02.svg'), url('../img/nav-01.svg');
+	    background-position: bottom right, top center;
+	    background-repeat:no-repeat;
+	    height: 220px;
+	}
+
+	#wrapper-footer-full {
+		.footer-menu {
+			margin: 0;
+		}
+	}
+}
+
+@include media-breakpoint-down(md) {
+	#main-menu {
+		li {
+
+			a {
+			padding: $spacer;
+			border-bottom:1px solid $white;
+			}
+
+			&:last-of-type a{
+					//border-bottom:none;
+				}
+		}
+	}
+
+	.custom-logo-link {
+		//width: 20%;
+	}
+}
