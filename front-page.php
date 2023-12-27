@@ -20,14 +20,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
 <div class="wrapper home-wrap" id="page-wrapper">
-	<!-- this is a test comment realno hah blaze it -->
-<main class="site-main madeup-class" id="main">
+
+<main class="site-main" id="main">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">		
 
 <div class="row">
 				<div class="col-12 col-md-10 offset-md-1">
-					<h1><span>Brezplačno</span> in <span>zaupno</span> testiranje na spolno prenosljive okužbe</h1>
+					<h1><span>Brezplačno hah</span> in <span>zaupno</span> testiranje na spolno prenosljive okužbe</h1>
 				</div>
 </div>
 
