@@ -18,7 +18,7 @@ defined( 'ABSPATH' ) || exit;
 	<?php
 	// prikazovanje pravega nagovora
 
-		if ( !has_category( 'Novice' || 'za-migrante') ) {
+		if ( !has_category( 'Novice') ) {
 	?>
 
 	<div class="nagovor nagovor-top">
