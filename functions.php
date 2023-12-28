@@ -203,7 +203,7 @@ add_action( 'init', 'nov_menu' );
 function auto_assign_tag_to_category_posts() {
     // Specify the category ID and the tag ID
     $category_id = 4; // Novice
-    $tag_id = 159;     // simple
+    $tag_id = 'simple';
 
     // Get all posts in the specified category
     $category_posts = get_posts(array('category' => $category_id, 'posts_per_page' => -1));
