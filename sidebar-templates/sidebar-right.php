@@ -14,7 +14,7 @@ if ( ! is_active_sidebar( 'right-sidebar' ) ) {
 
 ?>
 	<?php
-		if ( !is_page() && !has_category( 'Novice' ) ) {
+		if ( !is_page() && !has_tag( 'simple' ) ) {
 	?>
 
 <div class="sekundarni-nagovor">
