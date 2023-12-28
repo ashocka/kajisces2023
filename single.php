@@ -38,7 +38,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <!-- #single-wrapper -->
 
 <?php
-		if ( !has_category( 'Novice' ) ) {
+		if ( !has_tag( 'simple' )) {
 ?>
 
 <footer class="entry-footer container">
