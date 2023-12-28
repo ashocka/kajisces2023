@@ -93,6 +93,7 @@ defined( 'ABSPATH' ) || exit;
 	}
 
 	wp_reset_postdata();
+	endif;
 	?>
 
 	
