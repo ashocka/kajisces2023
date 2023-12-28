@@ -39,23 +39,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php
 		if ( !has_category( 'Novice' ) ) {
-	
-	// Define an array of categories to check
-	$categories_to_check = array('novice', 'za-migrante');
-
-	// Get the post categories
-	$post_categories = get_the_category();
-
-	// Check if the post is in any of the listed categories
-	$found = false;
-	foreach ($categories_to_check as $category) {
-		if (has_category($category, $post_categories)) {
-			$found = true;
-			break;
-		}
-	}
-
-	if ($found) {
 ?>
 
 <footer class="entry-footer container">
