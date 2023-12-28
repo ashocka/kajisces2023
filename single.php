@@ -38,6 +38,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <!-- #single-wrapper -->
 
 <?php
+		if ( !has_category( 'Novice' ) ) {
 	
 	// Define an array of categories to check
 	$categories_to_check = array('novice', 'za-migrante');

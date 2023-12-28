@@ -19,21 +19,21 @@ defined( 'ABSPATH' ) || exit;
 	// prikazovanje pravega nagovora
 
 	// Define an array of categories to check
-		$categories_to_check = array('novice', 'za-migrante');
+	$categories_to_check = array('novice', 'za-migrante');
 
-		// Get the post categories
-		$post_categories = get_the_category();
+	// Get the post categories
+	$post_categories = get_the_category();
 
-		// Check if the post is in any of the listed categories
-		$found = false;
-		foreach ($categories_to_check as $category) {
-			if (has_category($category, $post_categories)) {
-				$found = true;
-				break;
-			}
+	// Check if the post is in any of the listed categories
+	$found = false;
+	foreach ($categories_to_check as $category) {
+		if (has_category($category, $post_categories)) {
+			$found = true;
+			break;
 		}
+	}
 
-		if ($found) {
+	if ($found) {
 	?>
 
 	<div class="nagovor nagovor-top">
@@ -93,7 +93,6 @@ defined( 'ABSPATH' ) || exit;
 	}
 
 	wp_reset_postdata();
-	endif;
 	?>
 
 	
