@@ -34,24 +34,24 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="row features">
 				<div class="col-12 col-md-4 feature">
 					<div class="feat-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon01.svg" alt="roka s petimi prsti" /></div>
-					<p>Več testov naenkrat: hiv, hepatitis, sifilis, gonoreja</p>
+					<p>5 brezplačnih testov v enem: hiv, hepatitis, sifilis, gonoreja</p>
 				</div>
 
 				<div class="col-12 col-md-4 feature">
-					<div class="feat-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon02.svg" alt="smejoč obraz" /></div>
-					<p>Zaupno, brezplačno, prijazno</p>
+				<div class="feat-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon03.svg" alt="par, ki se drži za roke" /></div>
+					<p>Za moške, ki imajo spolne odnose z moškimi, spolne delavke in njihove partnerke_je</p>
 				</div>
 
 				<div class="col-12 col-md-4 feature">
-					<div class="feat-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon03.svg" alt="par, ki se drži za roke" /></div>
-					<p>Za moške, ki imajo spolne odnose z moškimi in njihove partnerke_je</p>
+					<div class="feat-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon02.svg" alt="faca ki se smeje" /></div>
+					<p>Novo: testiranje tudi za migrante in uporabnike drog pri partnerjih projekta</p>
 				</div>
 </div>
 
 <div class="row">
 	<div class="col-12 col-md-6 offset-md-3">
-		<a href="<?php echo get_site_url(); ?>/testiranje/" class="btn">Preveri termine in lokacije testiranja</a>
-		<a href="<?php echo get_site_url(); ?>/potek-testiranja/" class="under-btn">Preberi več o poteku testiranja</a>
+		<a href="<?php echo get_site_url(); ?>/testiranje/" class="btn">Pridi na testiranje na Legebitro</a>
+		<a href="<?php echo get_site_url(); ?>/mesta/" class="under-btn">Ne zveni prav zate? Preveri splošna testirna mesta</a>
 
 		<div class="info-ponuja">
 			<span>testiranje in informacije ponuja Legebitra</span>
