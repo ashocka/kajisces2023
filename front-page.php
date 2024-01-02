@@ -27,7 +27,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="row">
 				<div class="col-12 col-md-10 offset-md-1">
-					<h1><span>Brezplačno hah</span> in <span>zaupno</span> testiranje na spolno prenosljive okužbe</h1>
+					<h1><span>Brezplačno</span> in <span>zaupno</span> testiranje na spolno prenosljive okužbe</h1>
 				</div>
 </div>
 
