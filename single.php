@@ -43,7 +43,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <footer class="entry-footer container">
 		<div class="row">
-		<div class="col-12"><h2>Preberi več na to temo</h2></div>
+		<div class="col-12"><h2>Preberi več o ...</h2></div>
 		<?php
 		/*
 		*  Loop through post objects (assuming this is a multi-select field) ( setup postdata )
@@ -66,7 +66,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		    'orderby'          => 'name',
 		    'order'            => 'ASC',
 		    'post_type'        => 'post',
-		    'post__not_in'     => array(get_the_ID())
+		    'post__not_in'     => array(get_the_ID(), 4)
 			);
 
 			$posts = get_posts( $args );
