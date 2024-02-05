@@ -39,7 +39,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<div class="col-12 col-md-4 feature">
 				<div class="feat-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon03.svg" alt="par, ki se drži za roke" /></div>
-					<p>Za moške, ki imajo spolne odnose z moškimi in njihove partnerke_je</p>
+					<p>Živjo rene!</p>
 				</div>
 
 				<div class="col-12 col-md-4 feature">
