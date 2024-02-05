@@ -62,11 +62,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			$args = array(
 		    'posts_per_page'   => 3,
-		    'category'         => $catid,
+		    'category'         => $catid, 4,
 		    'orderby'          => 'name',
 		    'order'            => 'ASC',
 		    'post_type'        => 'post',
-		    'post__not_in'     => array(get_the_ID(), 4)
+		    'post__not_in'     => array(get_the_ID())
 			);
 
 			$posts = get_posts( $args );
