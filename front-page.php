@@ -27,37 +27,25 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="row">
 				<div class="col-12 col-md-10 offset-md-1">
-					<h1><span>Brezplačno</span> in <span>zaupno</span> testiranje na spolno prenosljive okužbe</h1>
+					<h1><span>Brezplačno</span> in <span>zaupno</span> testiranje na hiv, virusne hepatitise in spolno prenosljive okužbe</h1>
 				</div>
 </div>
 
 <div class="row features">
 				<div class="col-12 col-md-4 feature">
 					<div class="feat-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon01.svg" alt="roka s petimi prsti" /></div>
-					<p>Živjo rene</p>
+					<p>Več brezplačnih testov naenkrat</p>
 				</div>
 
 				<div class="col-12 col-md-4 feature">
 				<div class="feat-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon03.svg" alt="par, ki se drži za roke" /></div>
-					<p>Živjo rene!</p>
+					<p>Za moške, ki imajo spolne odnose z moškimi in njihove partnerke_je</p>
 				</div>
 
 				<div class="col-12 col-md-4 feature">
 					<div class="feat-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon02.svg" alt="faca ki se smeje" /></div>
-					<p>Novo: testiranje tudi za migrante in uporabnike drog pri partnerjih projekta</p>
+					<p>Novo: testiranje tudi za spolne delavce, migrante in uporabnike drog</p>
 				</div>
-</div>
-
-<div class="row">
-	<div class="col-12 col-md-6 offset-md-3">
-		<a href="<?php echo get_site_url(); ?>/testiranje/" class="btn">Pridi na testiranje na Legebitro</a>
-		<a href="<?php echo get_site_url(); ?>/mesta/" class="under-btn">Ne zveni prav zate? Preveri splošna testirna mesta</a>
-
-		<div class="info-ponuja">
-			<span>testiranje in informacije ponuja Legebitra</span>
-			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-lege.png" class="logo-lege" alt="logo legebitra" />
-		</div>
-	</div>
 </div>
 
 
@@ -118,6 +106,76 @@ $container = get_theme_mod( 'understrap_container_type' );
 			if ($predlagana_stran){
 				$naslov = get_field('predlagana_stran_3_naslov');
 				$podnaslov = get_field('predlagana_stran_3_podnaslov');
+
+				echo "<a href='" . $predlagana_stran . "'>";
+				echo "<h2>" . $naslov . "</h2>";
+				echo "<p>" . $podnaslov . "</p>";
+			} else {
+				echo "<a href='" . get_site_url() . "/buddy/'>";
+				echo "<h2>Kje lahko dobim podporo?</h2>";
+				echo "<p>Informacije o Buddy programu</p>";
+			}
+		?>
+		<img class="btn-arrow" alt="" role="presentation" src="<?php echo get_stylesheet_directory_uri(); ?>/img/arrow.svg" />
+			</a>
+		</div>
+	</div>
+
+	<div class="col-12 col-md-4 priporocamo-wrap">
+		<div class="priporocamo priporocamo-ena">
+		<?php
+			$predlagana_stran = get_field('predlagana_stran_4_url');
+
+			if ($predlagana_stran){
+				$naslov = get_field('predlagana_stran_4_naslov');
+				$podnaslov = get_field('predlagana_stran_4_podnaslov');
+
+				echo "<a href='" . $predlagana_stran . "'>";
+				echo "<h2>" . $naslov . "</h2>";
+				echo "<p>" . $podnaslov . "</p>";
+			} else {
+				echo "<a href='" . get_site_url() . "/mesta/'>";
+				echo "<h2>Kaj pa, če nisem MSM?</h2>";
+				echo "<p>Seznam lokacij, ki ponujajo testiranja na spolno prenosljive okužbe</p>";
+			}
+		?>
+		<img class="btn-arrow" alt="" role="presentation" src="<?php echo get_stylesheet_directory_uri(); ?>/img/arrow.svg" />
+			</a>
+		</div>
+	</div>
+
+
+	<div class="col-12 col-md-4 priporocamo-wrap">
+		<div class="priporocamo priporocamo-ena">
+		<?php
+			$predlagana_stran = get_field('predlagana_stran_5_url');
+
+			if ($predlagana_stran){
+				$naslov = get_field('predlagana_stran_5_naslov');
+				$podnaslov = get_field('predlagana_stran_5_podnaslov');
+
+				echo "<a href='" . $predlagana_stran . "'>";
+				echo "<h2>" . $naslov . "</h2>";
+				echo "<p>" . $podnaslov . "</p>";
+			} else {
+				echo "<a href='" . get_site_url() . "/hiv/'>";
+				echo "<h2>Kako se lahko zaščitim pred hivom?</h2>";
+				echo "<p>Več informacij o hivu</p>";
+			}
+		?>
+		<img class="btn-arrow" alt="" role="presentation" src="<?php echo get_stylesheet_directory_uri(); ?>/img/arrow.svg" />
+			</a>
+		</div>
+	</div>
+
+	<div class="col-12 col-md-4 priporocamo-wrap">
+		<div class="priporocamo priporocamo-ena">
+		<?php
+			$predlagana_stran = get_field('predlagana_stran_6_url');
+
+			if ($predlagana_stran){
+				$naslov = get_field('predlagana_stran_6_naslov');
+				$podnaslov = get_field('predlagana_stran_6_podnaslov');
 
 				echo "<a href='" . $predlagana_stran . "'>";
 				echo "<h2>" . $naslov . "</h2>";
