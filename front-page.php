@@ -34,7 +34,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="row features">
 				<div class="col-12 col-md-4 feature">
 					<div class="feat-img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icon01.svg" alt="roka s petimi prsti" /></div>
-					<p>5 brezplačnih testov v enem: hiv, hepatitis, sifilis, gonoreja</p>
+					<p>Živjo rene</p>
 				</div>
 
 				<div class="col-12 col-md-4 feature">
