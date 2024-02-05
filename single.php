@@ -62,7 +62,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			$args = array(
 		    'posts_per_page'   => 3,
-		    'category'         => $catid, 4,
+		    'category'         => $catid, -4,
 		    'orderby'          => 'name',
 		    'order'            => 'ASC',
 		    'post_type'        => 'post',
