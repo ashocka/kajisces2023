@@ -36,6 +36,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 	<?php wp_head(); ?>
+
+	<style>
+		.header-wrapper {
+    		background-color: #dff7ff !important;
+		}
+	</style>
 </head>
 
 <body <?php body_class(); ?> <?php understrap_body_attributes(); ?>>
