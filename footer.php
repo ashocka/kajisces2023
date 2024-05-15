@@ -59,15 +59,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<li><input type="checkbox" value="2" name="group[6395][2]" id="mce-group[6395]-6395-1"><label for="mce-group[6395]-6395-1">Ptuj</label></li>
 		<li><input type="checkbox" value="4" name="group[6395][4]" id="mce-group[6395]-6395-2"><label for="mce-group[6395]-6395-2">Maribor</label></li>
 		<li><input type="checkbox" value="8" name="group[6395][8]" id="mce-group[6395]-6395-3"><label for="mce-group[6395]-6395-3">Celje</label></li>
-		<li><input type="checkbox" value="16" name="group[6395][16]" id="mce-group[6395]-6395-4"><label for="mce-group[6395]-6395-4">Slovenj Gradec</label></li>
 		<li><input type="checkbox" value="32" name="group[6395][32]" id="mce-group[6395]-6395-5"><label for="mce-group[6395]-6395-5">Radovljica</label></li>
 		<li><input type="checkbox" value="64" name="group[6395][64]" id="mce-group[6395]-6395-6"><label for="mce-group[6395]-6395-6">Novo mesto</label></li>
-		<li><input type="checkbox" value="128" name="group[6395][128]" id="mce-group[6395]-6395-7"><label for="mce-group[6395]-6395-7">Brežice</label></li>
 		<li><input type="checkbox" value="256" name="group[6395][256]" id="mce-group[6395]-6395-8"><label for="mce-group[6395]-6395-8">Ljubljana</label></li>
 		<li><input type="checkbox" value="512" name="group[6395][512]" id="mce-group[6395]-6395-9"><label for="mce-group[6395]-6395-9">Nova Gorica</label></li>
 		<li><input type="checkbox" value="1024" name="group[6395][1024]" id="mce-group[6395]-6395-10"><label for="mce-group[6395]-6395-10">Koper</label></li>
 		<li><input type="checkbox" value="2048" name="group[6395][2048]" id="mce-group[6395]-6395-11"><label for="mce-group[6395]-6395-11">Savna District35</label></li>
-		<li><input type="checkbox" value="4096" name="group[6395][4096]" id="mce-group[6395]-6395-12"><label for="mce-group[6395]-6395-12">Savna Gymnasivm</label></li>
 		<li><input type="checkbox" value="8192" name="group[6395][8192]" id="mce-group[6395]-6395-13"><label for="mce-group[6395]-6395-13">Klub Tiffany</label></li>
 		</ul>
 		</div>
