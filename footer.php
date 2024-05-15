@@ -49,54 +49,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 		</div>
 		<div class="mc-field-group input-group">
-			<strong>Lokacije 1: </strong>
-			<ul><li><input type="checkbox" value="1" name="group[6395][1]" id="mce-group[6395]-6395-0"><label for="mce-group[6395]-6395-0">Murska Sobota</label></li>
-		<li><input type="checkbox" value="2" name="group[6395][2]" id="mce-group[6395]-6395-1"><label for="mce-group[6395]-6395-1">Ptuj</label></li>
-		<li><input type="checkbox" value="4" name="group[6395][4]" id="mce-group[6395]-6395-2"><label for="mce-group[6395]-6395-2">Maribor</label></li>
-		<li><input type="checkbox" value="8" name="group[6395][8]" id="mce-group[6395]-6395-3"><label for="mce-group[6395]-6395-3">Celje</label></li>
-		<li><input type="checkbox" value="16" name="group[6395][16]" id="mce-group[6395]-6395-4"><label for="mce-group[6395]-6395-4">Slovenj Gradec</label></li>
-		<li><input type="checkbox" value="32" name="group[6395][32]" id="mce-group[6395]-6395-5"><label for="mce-group[6395]-6395-5">Radovljica</label></li>
-		<li><input type="checkbox" value="64" name="group[6395][64]" id="mce-group[6395]-6395-6"><label for="mce-group[6395]-6395-6">Novo mesto</label></li>
-		<li><input type="checkbox" value="128" name="group[6395][128]" id="mce-group[6395]-6395-7"><label for="mce-group[6395]-6395-7">Brežice</label></li>
-		<li><input type="checkbox" value="256" name="group[6395][256]" id="mce-group[6395]-6395-8"><label for="mce-group[6395]-6395-8">Ljubljana</label></li>
-		<li><input type="checkbox" value="512" name="group[6395][512]" id="mce-group[6395]-6395-9"><label for="mce-group[6395]-6395-9">Nova Gorica</label></li>
-		<li><input type="checkbox" value="1024" name="group[6395][1024]" id="mce-group[6395]-6395-10"><label for="mce-group[6395]-6395-10">Koper</label></li>
-		<li><input type="checkbox" value="2048" name="group[6395][2048]" id="mce-group[6395]-6395-11"><label for="mce-group[6395]-6395-11">Savna District35</label></li>
-		<li><input type="checkbox" value="4096" name="group[6395][4096]" id="mce-group[6395]-6395-12"><label for="mce-group[6395]-6395-12">Savna Gymnasivm</label></li>
-		<li><input type="checkbox" value="8192" name="group[6395][8192]" id="mce-group[6395]-6395-13"><label for="mce-group[6395]-6395-13">Klub Tiffany</label></li>
-		</ul>
+			<strong>Skupina:</strong>
+			<select name="group[20990]" class="" id="mce-group[20990]"><option value=""></option><option value="16384">Moški, ki imajo spolne odnose z moškimi</option><option value="32768">Spolne delavke</option></select>
 		</div>
-		<hr />
-		<div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
-			<div class="content__gdpr">
-				<fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
-				<label class="checkbox subfield" for="gdpr_19843"><input type="checkbox" id="gdpr_19843" name="gdpr[19843]" value="Y" class="av-checkbox gdpr"><span>Soglašam, da me obveščate o prihodnjih testiranjih in se strinjam s <a href="<?php echo site_url(); ?>/pogoji-uporabe/">pogoji uporabe in zasebnosti</a>.*</span> </label>
-				</fieldset>
-				
-			</div>
 
-		</div>
-			<div id="mce-responses" class="clear">
-				<div class="response" id="mce-error-response" style="display:none"></div>
-				<div class="response" id="mce-success-response" style="display:none"></div>
-			</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-			<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ca1ce05c47f697b64123f2d04_d8fba7d495" tabindex="-1" value=""></div>
-			<div class="clear"><input type="submit" class="btn" value="Prijavi se" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-			</div>
-		</form>
-	</div>
-
-	<!-- Begin Mailchimp Signup Form -->
-<div id="mc_embed_signup" class="mc-form-tab mc-form-tab-02">
-		<form class="enovice" action="https://kajisces.us15.list-manage.com/subscribe/post?u=ca1ce05c47f697b64123f2d04&amp;id=d8fba7d495" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-			<div id="mc_embed_signup_scroll">
-		<div class="mc-field-group">
-			<label for="mce-EMAIL">E-naslov:*
-		</label>
-			<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-		</div>
 		<div class="mc-field-group input-group">
-			<strong>Lokacije2: </strong>
+			<strong>Lokacije: </strong>
 			<ul><li><input type="checkbox" value="1" name="group[6395][1]" id="mce-group[6395]-6395-0"><label for="mce-group[6395]-6395-0">Murska Sobota</label></li>
 		<li><input type="checkbox" value="2" name="group[6395][2]" id="mce-group[6395]-6395-1"><label for="mce-group[6395]-6395-1">Ptuj</label></li>
 		<li><input type="checkbox" value="4" name="group[6395][4]" id="mce-group[6395]-6395-2"><label for="mce-group[6395]-6395-2">Maribor</label></li>
@@ -132,6 +90,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</div>
 		</form>
 	</div>
+
+
 	<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email'; /*
 	* Translated default messages for the $ validation plugin.
 	* Language: SL
