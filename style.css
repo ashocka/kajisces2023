@@ -36,5 +36,5 @@ The dependencies can be found in /src/ after running "gulp copy-assets" terminal
 */
 
 .header-wrapper {
-    background-color: #dff7ff;
+    background-color: #dff7ff !important;
 }
