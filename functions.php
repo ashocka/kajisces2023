@@ -217,6 +217,11 @@ function auto_assign_tag_to_category_posts() {
 // Hook this function to run when WordPress initializes
 add_action('init', 'auto_assign_tag_to_category_posts');
 
-
+// remove the featured images 202/4
+global $wpdb;
+$wpdb->query( "
+    DELETE FROM $wpdb->postmeta 
+    WHERE meta_key = '_thumbnail_id'
+" );
 
 
