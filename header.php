@@ -44,7 +44,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		}
 
 		.tag-simple .header-wrapper {
-			background:none;
+			background:none !important;
 		}
 	</style>
 </head>
