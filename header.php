@@ -40,6 +40,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<style>
 		.header-wrapper {
     		background-color: #dff7ff !important;
+			padding-bottom: 1em;
+		}
+
+		.tag-simple .header-wrapper {
+			background:none;
 		}
 	</style>
 </head>
