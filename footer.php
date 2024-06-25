@@ -53,6 +53,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 		</label>
 		<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 		</div>
+		<div class="mc-field-group input-group" style="display:none;">
+			<select name="group[20990]" class="" id="mce-group[20990]">
+				<option selected="selected" value="16384">Moški, ki imajo spolne odnose z moškimi</option><</select>
+		</div>
 		<div class="mc-field-group input-group">
 		<strong>Lokacije: </strong>
 		<ul><li><input type="checkbox" value="1" name="group[6395][1]" id="mce-group[6395]-6395-0"><label for="mce-group[6395]-6395-0">Murska Sobota</label></li>
@@ -95,6 +99,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 </label>
 <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL-sw">
 </div>
+
+<div class="mc-field-group input-group" style="display:none;">
+			<select name="group[20990]" class="" id="mce-group[20990]">
+			<option selected="selected" value="32768">Spolne delavke</option></select>
+		</div>
+
 <div class="mc-field-group input-group">
 <strong>Lokacije: </strong>
 <ul>
