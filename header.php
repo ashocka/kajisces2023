@@ -46,6 +46,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 		.tag-simple .header-wrapper {
 			background:none !important;
 		}
+
+		.wp-block-verse{
+			font-family: unset;
+		}
+
+		.form-container {
+			display: none;
+		}
+		.form-container.active {
+			display: block;
+		}
 	</style>
 </head>
 
