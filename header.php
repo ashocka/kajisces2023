@@ -59,7 +59,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			display: block;
 		}
 
-		$page-wrapper .entry-title {
+		#page-wrapper .entry-title {
 			background-color: #dff7ff;
 			padding: 2rem;
 		}
