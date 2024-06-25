@@ -65,13 +65,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 		}
 
 		.ea-bootstrap .time-value {
-			background-color: #a1c627;
-			color: rgb(43, 43, 43);
+			background-color: #a1c627 !important;
+			color: rgb(43, 43, 43) !important;
 			font-weight: bold;
 		}
 
 		.ea-bootstrap .time-disabled {
-			background-color: rgb(255, 102, 102);
+			background-color: rgb(255, 102, 102) !important;
 			color: rgb(186, 37, 37);
 		}
 	</style>
