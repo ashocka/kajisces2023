@@ -84,6 +84,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 </div>
 </div>
 
+<style>
+.form-container {
+  display: none;
+}
+.form-container.active {
+  display: block;
+}
+</style>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
 	document.addEventListener('DOMContentLoaded', function() {
