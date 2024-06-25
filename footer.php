@@ -132,7 +132,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 </style>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
 	document.addEventListener('DOMContentLoaded', function() {
   const targetGroupSelect = document.getElementById('target-group');
   const msmForm = document.getElementById('msm-form');
@@ -151,7 +150,6 @@ document.addEventListener('DOMContentLoaded', function() {
       swForm.classList.remove('active');
     }
   });
-});
 });
 </script>
 
