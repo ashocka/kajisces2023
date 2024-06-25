@@ -84,31 +84,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 </div>
 </div>
 
-<style>
-.form-container {
-  display: none;
-}
-.form-container.active {
-  display: block;
-}
-</style>
-
 <script>
-const formSelect = document.getElementById('target-group');
-const msmForm = document.getElementById('msm-form');
-const swForm = document.getElementById('sw-form');
-
-formSelect.addEventListener('change', function() {
-  if (this.value === 'msm') {
-    msmForm.classList.add('active');
-    swForm.classList.remove('active');
-  } else if (this.value === 'sw') {
-    msmForm.classList.remove('active');
-    swForm.classList.add('active');
-  } else {
-    msmForm.classList.remove('active');
-    swForm.classList.remove('active');
-  }
+document.addEventListener('DOMContentLoaded', function() {
+		formSelect.addEventListener('change', function() {
+  		msmForm.style.display = (this.value === 'msm') ? 'block' : 'none';
+  		swForm.style.display = (this.value === 'sw') ? 'block' : 'none';
+	});
 });
 </script>
 
