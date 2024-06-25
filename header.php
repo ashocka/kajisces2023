@@ -49,6 +49,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		.wp-block-verse{
 			font-family: unset;
+			font-style: italic;
 		}
 
 		.form-container {
