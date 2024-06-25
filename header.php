@@ -58,6 +58,22 @@ $container = get_theme_mod( 'understrap_container_type' );
 		.form-container.active {
 			display: block;
 		}
+
+		$page-wrapper .entry-title {
+			background-color: #dff7ff;
+			padding: 2rem;
+		}
+
+		.ea-bootstrap .time-value {
+			background-color: #a1c627;
+			color: rgb(43, 43, 43);
+			font-weight: bold;
+		}
+
+		.ea-bootstrap .time-disabled {
+			background-color: rgb(255, 102, 102);
+			color: rgb(186, 37, 37);
+		}
 	</style>
 </head>
 
